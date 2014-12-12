@@ -1,0 +1,99 @@
+body > .container {
+	padding-top: 60px;	
+}
+
+.dropdown-toggle {
+	color: #000 !important;
+}
+
+.page-header {
+	font-weight: bold;
+	width:300px;
+	padding-left: 10px;
+	padding-bottom: 0;
+	border-bottom: 1px solid gray;
+	border-left: 3px solid black;
+}
+
+.header > button{
+	margin-bottom: 10px;
+}
+
+#wait {
+	font-weight: bold;
+	color: #e6005c;
+	padding-left: 3px;
+	border-left: 5px solid #e6005c;
+}
+
+
+#doing {
+	font-weight: bold;
+	padding-left: 3px;
+	border-left: 5px solid #1e90ff;
+	color: #1e90ff;
+}
+
+
+#finished {
+	font-weight: bold;
+	padding-left: 3px;
+	border-left: 5px solid #ff8c00;
+	color: #ff8c00;
+}
+
+.table {
+	text-align: center;
+}
+.table_header {
+	font-size: 20px;
+}
+.table_content {
+	font-size: 16px;
+}
+
+#enhanced_text {
+	color:red;
+	font-size:20px;
+	font-weight:bold;
+	font-family:'Roboto';
+}
+/* Styles go here */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #000;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
